@@ -4,9 +4,9 @@ h3{
 }
 h1 {
   border: 2px solid black; 
-} 
+}
 navbar {
-  background-color: aquamarine;
+  background-color: maroon;
   overflow: hidden;
 }
 .group{
@@ -21,16 +21,23 @@ navbar {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  background-color: maroon;
+  color: white;
 }
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  background-color: blue;
-  color: black;
+  background-color: red;
+  color: white;
 }
 
 /* Add a color to the active/current link */
+/*
 .navbar a.active {
-  background-color: aquamarine;
+  background-color: maroon;
   color: white;
 } 
+body [
+  
+]
+*/
