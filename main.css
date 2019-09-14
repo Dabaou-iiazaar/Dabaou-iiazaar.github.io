@@ -1,0 +1,98 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red150\green129\blue72;\red94\green99\blue125;
+\red136\green109\blue133;\red213\green192\blue107;\red196\green100\blue32;\red109\green136\blue175;\red133\green166\blue119;
+}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c65490\c57255\c35294;\cssrgb\c44314\c46667\c56471;
+\cssrgb\c60392\c50980\c59216;\cssrgb\c86667\c79216\c49412;\cssrgb\c81569\c47059\c16471;\cssrgb\c50196\c60784\c74118;\cssrgb\c58824\c70196\c54118;
+}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl340\partightenfactor0
+
+\f0\fs26 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 %\cf3 \strokec3 fixedbox\cf2 \strokec2  \{\
+  \cf4 \strokec4 // Basic styling\cf2 \strokec2 \
+  \cf5 \strokec5 box-sizing\cf2 \strokec2 : \cf6 \strokec6 border-box\cf2 \strokec2 ;\
+  \cf5 \strokec5 display\cf2 \strokec2 : \cf6 \strokec6 block\cf2 \strokec2 ;\
+  \cf5 \strokec5 font-size\cf2 \strokec2 : \cf7 \strokec7 4em\cf2 \strokec2 ;\
+  \cf5 \strokec5 padding\cf2 \strokec2 : \cf7 \strokec7 1em\cf2 \strokec2 ;\
+  \cf5 \strokec5 width\cf2 \strokec2 : \cf7 \strokec7 6em\cf2 \strokec2 ;\
+  \cf5 \strokec5 height\cf2 \strokec2 : \cf7 \strokec7 3em\cf2 \strokec2 ;\
+  \
+  \cf4 \strokec4 // Center box in middle of screen\cf2 \strokec2 \
+  \cf5 \strokec5 position\cf2 \strokec2 : \cf6 \strokec6 fixed\cf2 \strokec2 ; \
+    \cf5 \strokec5 top\cf2 \strokec2 : \cf7 \strokec7 50%\cf2 \strokec2 ;\
+    \cf5 \strokec5 left\cf2 \strokec2 : \cf7 \strokec7 50%\cf2 \strokec2 ;\
+  \cf5 \strokec5 transform\cf2 \strokec2 : \cf6 \strokec6 translate3d\cf2 \strokec2 (\cf7 \strokec7 -50%\cf2 \strokec2 ,\cf7 \strokec7 -50%\cf2 \strokec2 ,\cf7 \strokec7 0\cf2 \strokec2 );\
+\}\
+\
+\pard\pardeftab720\sl340\partightenfactor0
+\cf6 \strokec6 .content\cf2 \strokec2  \{\
+    \cf4 \strokec4 // Basic styling\cf2 \strokec2 \
+    \cf8 \strokec8 @extend\cf2 \strokec2  %\cf3 \strokec3 fixedbox\cf2 \strokec2 ;\
+  \
+    \cf5 \strokec5 font-weight\cf2 \strokec2 : \cf6 \strokec6 bold\cf2 \strokec2 ;\
+    \cf5 \strokec5 text-align\cf2 \strokec2 : \cf6 \strokec6 center\cf2 \strokec2 ;\
+    \cf5 \strokec5 z-index\cf2 \strokec2 : \cf7 \strokec7 1000\cf2 \strokec2 ;\
+  \
+    \cf4 \strokec4 // Cut-out text effect\cf2 \strokec2 \
+    \cf5 \strokec5 background\cf2 \strokec2 : \cf6 \strokec6 #fff\cf2 \strokec2 ;\
+    \cf5 \strokec5 color\cf2 \strokec2 : \cf6 \strokec6 #000\cf2 \strokec2 ;\
+    \cf5 \strokec5 mix-blend-mode\cf2 \strokec2 : \cf6 \strokec6 lighten\cf2 \strokec2 ;\
+\}\
+\
+\pard\pardeftab720\sl340\partightenfactor0
+\cf3 \strokec3 section\cf2 \strokec2  \{\
+  \cf4 \strokec4 // Background image styling\cf2 \strokec2 \
+  \cf5 \strokec5 background-repeat\cf2 \strokec2 : \cf6 \strokec6 no-repeat\cf2 \strokec2 ;\
+  \cf5 \strokec5 background-size\cf2 \strokec2 : \cf6 \strokec6 cover\cf2 \strokec2 ;\
+  \
+  \cf4 \strokec4 // Reset stacking context\cf2 \strokec2 \
+  \cf5 \strokec5 isolation\cf2 \strokec2 : isolate;\
+  \
+  \cf4 \strokec4 // Must be set to correctly position .wrapper below\cf2 \strokec2 \
+  \cf5 \strokec5 position\cf2 \strokec2 : \cf6 \strokec6 relative\cf2 \strokec2 ;\
+  \
+  \cf4 \strokec4 // Height not required. Can be left as auto\cf2 \strokec2 \
+  \cf5 \strokec5 height\cf2 \strokec2 : \cf7 \strokec7 100vh\cf2 \strokec2 ;\
+  \cf5 \strokec5 padding\cf2 \strokec2 : \cf7 \strokec7 1em\cf2 \strokec2 ;\
+\}\
+\
+\pard\pardeftab720\sl340\partightenfactor0
+\cf6 \strokec6 .wrapper\cf2 \strokec2  \{\
+  \cf4 \strokec4 // Hides box (&:before) outside of section\cf2 \strokec2 \
+  \cf5 \strokec5 clip\cf2 \strokec2 : \cf6 \strokec6 rect\cf2 \strokec2 (\cf6 \strokec6 auto\cf2 \strokec2  \cf6 \strokec6 auto\cf2 \strokec2  \cf6 \strokec6 auto\cf2 \strokec2  \cf6 \strokec6 auto\cf2 \strokec2 );\
+  \
+  \cf4 \strokec4 // Clip works only on positions absolute or fixed\cf2 \strokec2 \
+  \cf5 \strokec5 position\cf2 \strokec2 : \cf6 \strokec6 absolute\cf2 \strokec2 ; \
+  \cf4 \strokec4 // Stretch to fill entire section\cf2 \strokec2 \
+    \cf5 \strokec5 top\cf2 \strokec2 : \cf7 \strokec7 0\cf2 \strokec2 ;\
+    \cf5 \strokec5 right\cf2 \strokec2 : \cf7 \strokec7 0\cf2 \strokec2 ;\
+    \cf5 \strokec5 bottom\cf2 \strokec2 : \cf7 \strokec7 0\cf2 \strokec2 ;\
+    \cf5 \strokec5 left\cf2 \strokec2 : \cf7 \strokec7 0\cf2 \strokec2 ;\
+  \
+  &:before \{\
+    \cf5 \strokec5 content\cf2 \strokec2 : \cf9 \strokec9 " "\cf2 \strokec2 ;\
+    \
+    \cf4 \strokec4 // Basic styling\cf2 \strokec2 \
+    \cf8 \strokec8 @extend\cf2 \strokec2  %\cf3 \strokec3 fixedbox\cf2 \strokec2 ;\
+    \cf5 \strokec5 padding\cf2 \strokec2 : \cf7 \strokec7 2em\cf2 \strokec2  \cf7 \strokec7 3.5em\cf2 \strokec2 ;\
+    \
+    \cf4 \strokec4 // Blend with background\cf2 \strokec2 \
+    \cf5 \strokec5 mix-blend-mode\cf2 \strokec2 : \cf6 \strokec6 darken\cf2 \strokec2 ;\
+\
+  \}\
+\}\
+\
+\cf6 \strokec6 .one\cf2 \strokec2  \{\
+  \cf4 \strokec4 // Section background image\cf2 \strokec2 \
+  \cf5 \strokec5 background-image\cf2 \strokec2 : \cf6 \strokec6 url\cf2 \strokec2 (\cf9 \strokec9 https://source.unsplash.com/1920x1080?nature\cf2 \strokec2 );\
+  \
+  \cf6 \strokec6 .wrapper\cf2 \strokec2 :before \{\
+    \cf4 \strokec4 // Box background color\cf2 \strokec2 \
+    \cf5 \strokec5 background\cf2 \strokec2 : \cf6 \strokec6 red\cf2 \strokec2 ;\
+  \}\
+\}
+\f1 \
+}
