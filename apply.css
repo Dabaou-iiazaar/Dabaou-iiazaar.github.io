@@ -25,7 +25,9 @@ navbar {
     background-color: red;
     color: white;
   }
-  
+  .mid{
+    margin-left: 15px;
+  }
   
   /* Add a color to the active/current link */
   /*

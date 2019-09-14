@@ -1,9 +1,11 @@
 h3{
   font-family: Georgia, serif;
-  margin:0;
+  text-align: justify;
+  text-justify: inter-word;
 }
 h1 {
-  border: 2px solid black; 
+  border: 2px solid black;
+  margin-left:15px;
 }
 navbar {
   background-color: maroon;
@@ -24,7 +26,9 @@ navbar {
   background-color: maroon;
   color: white;
 }
-
+.mid{
+  margin-left: 15px;
+}
 /* Change the color of links on hover */
 .navbar a:hover {
   background-color: red;
