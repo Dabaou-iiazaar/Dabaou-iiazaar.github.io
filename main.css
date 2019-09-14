@@ -1,7 +1,26 @@
-h3{
+body {
+  background : bisque;
+  
+}
+
+#intro{
   font-family: Georgia, serif;
   text-align: justify;
-  text-justify: inter-word;
+  width:50vh;
+  font-size:20px;
+  
+}
+
+#people {
+  
+  margin-right: -100vh;
+  
+  
+}
+
+#quote {
+  text-align: center;
+  
 }
 h1 {
   border: 2px solid black;
@@ -35,13 +54,3 @@ navbar {
   color: white;
 }
 
-/* Add a color to the active/current link */
-/*
-.navbar a.active {
-  background-color: maroon;
-  color: white;
-} 
-body [
-  
-]
-*/
