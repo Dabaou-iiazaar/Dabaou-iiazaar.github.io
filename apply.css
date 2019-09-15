@@ -36,6 +36,9 @@ navbar {
   .tech{
     margin: 15px;
   }
+  #teach{
+    margin-left: 50vh;
+  }
   /* Add a color to the active/current link */
   /*
   .navbar a.active {
