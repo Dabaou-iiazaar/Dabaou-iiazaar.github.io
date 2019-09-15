@@ -28,6 +28,12 @@ navbar {
   .mid{
     margin-left:15px;
   }
+  .mess{
+    font-family: Georgia,serif;
+    font-size: 17px;
+    margin-right: 20px;
+    text-align: justify;
+  }
   /* Add a color to the active/current link */
   /*
   .navbar a.active {
