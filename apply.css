@@ -33,7 +33,9 @@ navbar {
   .mid{
     margin-left: 15px;
   }
-  
+  .tech{
+    margin: 15px;
+  }
   /* Add a color to the active/current link */
   /*
   .navbar a.active {
