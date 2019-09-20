@@ -1,6 +1,9 @@
 body {
   background : bisque;
 }
+section{
+  background : white;
+}
 #intro{
   font-family: Georgia, serif;
   text-align: justify;
